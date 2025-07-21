@@ -4,7 +4,7 @@ import boto3
 app = FastAPI()
 
 s3 = boto3.client("s3")
-BUCKET_NAME = "seu-bucket"  # substitua pelo seu bucket real
+BUCKET_NAME = "injestao-dados-via-streamlit"  # substitua pelo seu bucket real
 
 @app.post("/upload")
 async def upload(file: UploadFile = File(...)):

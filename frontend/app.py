@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://localhost:8000/upload"  # mude para o IP da sua EC2 quando for rodar lá
+API_URL = "http://13.219.85.179:8000/upload"  # mude para o IP da sua EC2 quando for rodar lá
 
 st.title("Uploader de Arquivo Excel")
 
