@@ -1,0 +1,22 @@
+[project]
+name = "aws-streamlit-api"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "PedroGhost007",email = "prcpinto.04@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.116.1,<0.117.0)",
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "boto3 (>=1.39.10,<2.0.0)",
+    "python-multipart (>=0.0.20,<0.0.21)",
+    "streamlit (>=1.47.0,<2.0.0)",
+    "requests (>=2.32.4,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
